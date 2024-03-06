@@ -1,0 +1,311 @@
+body {
+  background-image: url(space.png);
+  text-align: center;
+  margin:auto;
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+  font-family: fascinate;
+  color: white;
+  font-size: 50px;
+}
+
+img, button {
+  width: 100px;
+  height: 100px;
+
+}
+
+
+button {
+  padding: 0px;
+  border: none;
+}
+
+#H {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#hydrogen {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#hydrogen:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+  color: black;
+}
+
+button#H:active {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  transform: scale(2,2);
+  animation-timing-function: ease-in;
+  color: black;
+}
+
+#hydrogen:active ~ h5 {
+  opacity: 100%;
+  animation-iteration-count: infinite;
+  color: black;
+}
+
+#He {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#helium {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#helium:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+}
+
+button#He:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: scale(2);
+}
+
+#Li {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#lithium {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#lithium:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+}
+
+button#Li:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: scale(2);
+}
+
+#Be {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#beryllium {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#beryllium:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+}
+
+button#Be:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: scale(2);
+}
+
+#B {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#boron {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#boron:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+}
+
+button#B:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: scale(2);
+}
+
+#C {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#carbon {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#carbon:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+}
+
+button#C:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: scale(2);
+}
+
+#N {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#nitrogen {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#nitrogen:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+}
+
+button#N:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: scale(2);
+}
+
+#O {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#oxygen {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#oxygen:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+}
+
+button#O:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: scale(2);
+}
+
+#F {
+  width:100px;
+  height: 100px;
+  opacity: 100%;
+}
+
+#fluorine {
+  position: relative;
+  opacity: 100%;
+  color: black;
+  z-index: -100;
+}
+
+#fluorine:hover {
+  opacity: 100;
+  position: relative;
+  z-index: 20;
+}
+
+button#F:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  scale: 200%;
+}
+
+#Ne {
+  width:100px;
+  height: 100px;
+  opacity: 1;
+}
+
+#neon {
+  position: relative;
+  color: black;
+  z-index: -100;
+}
+
+#neon:hover {
+  position: relative;
+  z-index: 20;
+}
+
+button#Ne:active {
+  animation-duration: 2s;
+  animation-iteration-count: 1;z`
+  animation-fill-mode: forwards;
+  transform: scale(2);
+  z-index: 20;
+}
+
+div.more {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  color:black;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 150px;
+}
+
+div.color {
+  background-color: white;
+  color: black;
+  height: 83px;
+  width: 100px;
+  text-align: middle;
+}
